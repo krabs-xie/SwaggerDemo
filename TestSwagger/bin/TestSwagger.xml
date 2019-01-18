@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestSwagger</name>
+    </assembly>
+    <members>
+        <member name="T:TestSwagger.Controllers.OrderController">
+            <summary>
+            订单
+            </summary>
+        </member>
+        <member name="M:TestSwagger.Controllers.OrderController.Get(System.Int32)">
+            <summary>
+            获取订单详情
+            </summary>
+            <param name="id">订单Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:TestSwagger.Models.OrderModel">
+            <summary>
+            订单实体类
+            </summary>
+        </member>
+        <member name="P:TestSwagger.Models.OrderModel.Id">
+            <summary>
+            订单Id
+            </summary>
+        </member>
+        <member name="P:TestSwagger.Models.OrderModel.OrderNo">
+            <summary>
+            订单编号
+            </summary>
+        </member>
+    </members>
+</doc>
